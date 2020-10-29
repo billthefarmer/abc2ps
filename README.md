@@ -106,14 +106,14 @@ Find the home row from the key, then
 
     Look for each note in the bar
       If pushing
-	      first on the home row on the push
-	      then on the other row on the push
-	      then on the home row on the pull
-	      then on the other row on the pull.
+        first on the home row on the push
+        then on the other row on the push
+        then on the home row on the pull
+        then on the other row on the pull.
 
       If pulling
-	      first on the home row on the pull
-	      then on the other row on the pull.
-	      then on the home row on the push
-	      then on the other row on the push
+        first on the home row on the pull
+        then on the other row on the pull.
+        then on the home row on the push
+        then on the other row on the push
 ```
