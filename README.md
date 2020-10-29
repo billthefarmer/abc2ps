@@ -20,14 +20,14 @@ For an explanation of melodeon tablature see Bernard Loffet's web site
 http://www.diato.org/exptab2.htm.
 
 This script can be run from a two line batch file tab.bat:
-
+```
   @echo off
   gawk -f tab.awk -v select=%2 box=%3 cross=%4 %5 %6 %1
-
+```
 The command line is:
-
+```
   tab <input abc file> <tune number> [<box key(s)>] [<cross fingering>]
-
+```
 The input file looks like this:
 ```abc
 X:12
@@ -39,9 +39,9 @@ K:G
 "G"BGBd|"C"cBAc|"G"BGBd|1"D"A2GA:|2"D"A2GF|]
 ```
 The output from the command line:
-
+```
   tab tunes.abc 12
-
+```
 without cross fingering looks like this:
 ```abc
 X:12
@@ -63,9 +63,9 @@ The first four bars of tablature will look like this:
 |<>              4' 4'             3'    3'
 ```
 The output from the command line:
-
+```
   tab tunes.abc 12 y
-
+```
 with cross fingering looks like this:
 ```abc
 X:12
