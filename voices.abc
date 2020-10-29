@@ -1,0 +1,151 @@
+%%indent 1cm
+
+X:1
+T: Fairfield Fancy    % -----
+C: Trad.
+M: 2/4
+%%sysstaffsep 35
+K:Am
+V:1 name="Intro" snm="In" 
+ME2>.E2 .A2.A2 | .c2.c2 e4 | edef edcB | A2E2 {Ec}+E2c2a2+ EE |
+T:       % note: force new indentation with empty title field
+V:1 name="Melody" snm="Mel."
+|: "Am"EAA^G A2 AB | c2e2 f2e2 | "G"DGGF G2 GA | B2d2 e2d2|
+"Am"EAA^G A2 AB | cBAc edce | "C"gage "Am"dcAc |1 ecdB A2 EE :|2ecdB A2 ee| 
+|:   "Am"ea^gb a2 ab | c'aba c'aba | "G"dgfa g2 ga | bgag bgag |
+"Am"ea^gb a2 ab | c'aba c'aba | "C"gage "Am"dcAc |1 ecdB A2 ee :|2 ecdB A2 EE||
+V:acc_1 name="Accomp I" snm="Acc. II"
+L:1/4
+|: (A,C | EA) | (GD | B,G,) | (A, C | E A) | c/G/ A/E/- |1 E/D/ C :|2 E/D/ C | 
+|: A2-  | A z  | G2- | G z  |A2-   | A z  | c/G/ A/E/- |1 E/D/ C :|2 E/D/ C || 
+V:acc_2 name="Accomp II"  snm="Acc. II"
+L:1/4
+|: A z |(A/c/ d/c/ |B) z |(G/B/ c/B/ |A) z|A c| e/e/ A|1(E A):|2 (E A)|  
+|: (Ac | ea) | (gd | BG) | (Ac | ea) | (ge |1 cA) :|2 cA) ||
+
+
+
+X:2
+T: Tzadik Katamar  % -----
+%%indent 0
+C: from Israel
+M: C|
+L: 1/4
+K: C
+V:1  brk=2
+C | "C"E<GG>A | "Am"E<DC>E | "Dm7"FFF<G | "G"D4 | "C"E<GG>A | "Em"B<EE>E |
+ "F"FGA<B | "G"G4 | "F"ABcA | "Em"B<GB>E | "Dm"FGA<B | "C"G4 |
+ "Dm"DEFD | "Em"E<G B2 | "F"ABcA | "G7"B3 G || "C"c3 c | "E7"B3 B | 
+ "F"AAA<B | "C"G2 "Am"E2 | "F"FFFG | "C"E<D "Am"C>E | "Dm"FFFD | "G"G<A B>G |
+ "C"c3 c | "E7"B3 B | "F"AAAB | "C"G2 "Am"E2 | "Dm7"FFFG | "C"E<D "Am"C>E |\
+      "Dm"DF "G"A<B | "C"c4 ||
+V:2 gch=0
+C | "C"C<EE>E | "Am"E<FE>E | "Dm7"D2A,2 | "G"B,> G,A,B, |\
+   "C"C<EE>E | "Em"E<B,B,>B, |
+"F"C4 | "G"B,>G,A,B, | "F"FGGF | "Em"E<GG>G | "Dm"FGGF | "C"E4 |
+"Dm"A2FD | "Em"G2E2 | "F"C2F2 | "G7"D2ED || "C"E4 | "E7"D4 | 
+"F"C2B,A, | "C"G,2 "Am"C2 | "F"A,C2C | "C"G, "     Am"C2C |\
+   "Dm"A,C2C | "G"B,2 CD |
+"C"E4 | "E7"D4 | "F"C2B,A, | "C"G,2 "Am"C2 | "Dm7"A,C2C |\
+   "C"G, "    Am"C2C |"Dm"A,2 "G"B,D | "C"E4 ||
+
+
+X:3
+T: Erev Ba  % ---
+C: from Israel
+M: C|
+L: 1/4
+K:G
+V:1
+"G"dgf g/b/ | "Am"a3z | "D7"ab c'/d'/ b | "G"b3z | dgf g/b/ | "Am"a3z |
+"D7"ab c'/d'/ b | "B7"b3z | "C"ceg>g | f/g/f/e/ e2 | "Am"Ace>e | "D"d>c B/A/G/F/ |
+"Em"G2 E2 | "Am"A2 "D7"A/B/ G | ("G"G4|G2) z2 |  dgf g/b/ | "Am"a3z |
+"D7"ab c'/d'/ b | "G"b3z | dgf g/b/ | "Am"a3z | "D7"ab c'/d'/ b | "B7"b3z | 
+"C"ceg>g | f/g/ f/e/ e2 | "Am"Ace>e | "D"d>c B/A/G/F/ | "Em"G2 E2 | "Am"A2 "D7"A/B/ G |
+"G"G>A B c/A/ | "G7"d>e =f/d/B/A/ [K:C] ||"C"G2z2| "Dm7"d/e/f/e/ d/c/B/A/ |\
+   "G7"G2z2 | "C"z/ G/c/B/ c/d/e/f/ | 
+g g/a/ g2 | "Dm7"f/g/a/g/ f/e/d/c/ | "G7"B/c/d/c/ B/A/ G| "E"^G>B e/d/c/B/|\
+   "F"c2 a>a | g/a/g/f/ .f .e |
+"Dm"d2f>f | "G"e>d c/B/A/B/ | "Am"c/d/c/B/ A/G/F/E/ | "Dm"D/E/F/D/ "G7"G A/B/ |\
+    "C"c3 e| .g.a.g e/d/ |
+GcBc/e/ | "Dm7"d3z | "G7"def/g/e| "C"e3z | GcBc/e/ | "Dm7"d3z |
+"G7"def/g/e| "E"e3z | "F"FAc>c| B/c/B/A/ A2| "Dm"DFA>A| "G"G>F E/D/C/E/ |
+"Am"c2A2 | "Dm"d2 "G7"d/e/c | ("C"c4|"Dm"c2) "G7"d/e/c| ("C"c4| c2) z2  |] 
+%
+V:2  gch=0
+"G"z4 | "Am"z4 | "D7"z4 | "G"z4 | z4 | "Am"z4 |
+"D7"z4 | "B7"z4 | "C"z4 | z4 | "Am"z4 | "D"z4 |
+"Em"G2Bd | "Am"c2 "D7"c/d/ B | "G"B>ABd | B>A G/A/ B| d2 z2 | "Am"A/B/c/B/ A/G/F/E/ |
+"D7"D2 z2 | "G"z/D/G/F/ G/A/B/c/ | d d/e/ d2| "Am"c/d/e/d/ c/B/A/G/ |\
+    "D7"F/G/A/G/ F/E/D/C/ | "B7"^D/B,/D/F/ B/A/G/F/ | 
+"C"c2 e>e | d/e/d/c/ cB| "Am"A2 c>c| "D"B>A G/F/E/F/ |\
+     "Em"G/A/G/F/ E/D/C/E/ | "Am"A/B/c/^c/ "D7"d e/f/ |
+("G"g4|"G7"g2)z2 [K:C] || "C"GcB c/e/ | "Dm7"d3z | "G7"de f/g/ e| "C"e3z |
+GcB c/e/ | "Dm7"d3z | "G7"de f/g/ e| "E"e3z | "F"FAc>c | B/c/B/A/ Az |
+"Dm"DFA>A | "G"G>F E/D/C/D/ | "Am"c2 A2 | "Dm"d2 "G7"d/e/c | ("C"c4|c2) z2 |
+Gede/g/ | "Dm7"f>e f/e/d/c/ | "G7"Bcd/e/c| "C"c  c/B/ c/B/c/d/ |\
+     e e/f/ ee | "Dm7"f>e f/e/d/c/ |
+"G7"Bc d/e/ c | "E"B>A ^G/A/B/G/ | "F"F2 A2 | c2 FE | "Dm"D2 F2 | "G"B2 e2|
+"Am"e2c2 | "Dm"f2 "G7"f/g/ e | ("C"e4| "Dm"e2) "G7"f/g/ e | ("C"e4|e2) z2 |]
+
+
+X: 1
+T: Helle Wasser   % --- we squeeze this onto one page
+%%musicspace 0cm
+%%topmargin  0.5cm
+%%sysstaffsep    35.0pt
+%%systemsep      55.0pt
+%%titlefont    Helvetica 16
+%%subtitlefont Helvetica 12
+%%composerfont Helvetica 10
+%%scale 0.65
+O: Finnland
+M: 6/8
+L: 1/8
+K: Am
+%V:sop name="Sopran" sname="S." bracket=3
+V:sop nm="Sopran" snm="S." brk=3
+"Am"e3-e2 f|e2 c B2 c |"Dm"d3 d3- |d3z3| \
+w: Hel - le Was-ser dun-kle W\"al-der
+"G7"d e2-e3|d-BG A2 B| \\ "Am"A6- |A3z3| \
+w: und die* Sehn - sucht sind mein Haus _
+"F"g a2-a3|"C"g2 e d2 e|"Dm"f3 f3-|f3z3| \\
+w: Komm zu* mir und tei-le mit mir_
+"G7"f g2-g3|f2 d c2 d|  "C"e6|"E7"-e3 z2z| \
+w: Tag und* W\"ar-me, K\"al-te auch._ 
+"Am"a3-a2 g|g g2 e2 d|  "Dm"f6| \\ z3 a3| \
+w: Wo* wir ge-hen bl\"uht das Laub, sind |
+"G7"g3-g2 g|e2 d c2 d|"C" e6|"C7"-e3 z2 e|   \
+w: We - ge k\"ur-zer Win-ter gr\"un._ In 
+"F"f3-f2 g| \\  "Fm"f2 f c2 d|"C"e3-d3|"A7"^c3 z2z| \
+w: dei - nen Au-gen w\"achst mein Le - ben,
+"Dm"d3-d2 e|"G7"e f2 e2 d|"C"c6-|"E7"B3z3 :|
+w: Dein* Ge\- sicht darf nie ver\- gehn. 
+%
+V:alto  staves=1 name="Alto" sname="A."
+z6 | z6|f3-f2 f|f2 g f2 d|
+B3 B3|z dd cdd|ccc-c3-|c3z3|
+e f2-f3|e2 c B2 c|d3 d3-|d3z3|
+d e2-e3|d2 B A2 B|c6|B6|
+z6|z3 A2 A|d d2 d2 d|d3 f3|
+f3-f2 d| c2 B A2 B|c3-c2 c|B3 _B3|
+A c2-c3|c6|c2 B _B3|A3 z2z|
+z3 c2 c|B B2 G2 G|G6-|^G3z3 :|
+%
+V:tenor name="Tenor" sname="T."
+z6 | z6 |z3 A3|-A3-A2 G|
+G3 G3|-G3 F2 E|E3 E3|z AA A2 B|
+ccc-c3|-c3 z cc|c3 z cc|c3 c3|
+B3 z2z|z GG G2 G|A2 G G3|^G6|
+z6|z6|z3 A2 A|A A2 c2 c|
+B3-B2 G|G2 G G2 G|A2 G G3|-G3 G3|
+A3-A2 A|_A2 A A2 A|G6|G6|
+F3-F2 G|G A2 G2 F|E6-|E3z3 :|
+
+
+
+
+
+
+
+

@@ -36,6 +36,9 @@
 *.x86_64
 *.hex
 
+# Emacs backups
+*~
+
 # Debug files
 *.dSYM/
 *.su
